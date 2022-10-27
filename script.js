@@ -104,18 +104,22 @@ async function nameCicleLoop() {
 }
 
 function setName(name) {
-  let emoji = '🔥'
+  let emoji = "🔥";
 
-  if(name == 'PZL') {
-    emoji = '🍁'
+  if (name == "PZL") {
+    emoji = "🍁";
   }
 
-  if(name == 'RODRIGO') {
-    emoji = '❓'
+  if (name == "RODRIGO") {
+    emoji = "❓";
   }
 
-  if(name == 'THG') {
-    emoji = '💢'
+  if (name == "THG") {
+    emoji = "💢";
+  }
+
+  if (name == "VINI") {
+    emoji = "📸";
   }
 
   webElements.names.innerText = `${emoji} ${name} ${emoji}`;
